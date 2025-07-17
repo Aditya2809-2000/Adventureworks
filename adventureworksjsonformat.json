@@ -1,0 +1,37 @@
+[
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Calendar%20Lookup.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Calendar",
+        "sink_file" : "AdventureWorks_dim_calendar.csv"
+    },
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Product%20Categories%20Lookup.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Categories",
+        "sink_file" : "AdventureWorks_dim_product_category.csv"
+
+    },
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Product%20Lookup.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Product",
+        "sink_file" : "AdventureWorks_dim_product.csv"
+
+    },
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Product%20Subcategories%20Lookup.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Subcategory",
+        "sink_file" : "AdventureWorks_dim_product_subcategory.csv"
+
+    },
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Returns%20Data.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Returns",
+        "sink_file" : "AdventureWorks_fact_returns.csv"
+
+    },
+    {
+        "source_url" : "refs/heads/main/AdventureWorks%20Sales%20Data%202020.csv",
+        "sink_folder" : "AdventureWorks_Bronze_Sales2020",
+        "sink_file" : "AdventureWorks_fact_sales_2020.csv"
+
+    }
+]
